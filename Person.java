@@ -28,6 +28,16 @@ public class Person
         color = "black";
         isVisible = false;
     }
+    
+    public Person(int height, int width)
+    {
+        this.height = height;
+        this.width = width;
+        xPosition = 280;
+        yPosition = 190;
+        color = "black";
+        isVisible = false;
+    }
 
     /**
      * Make this person visible. If it was already visible, do nothing.
